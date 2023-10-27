@@ -14,7 +14,7 @@ A arquitetura hexagonal (portas e adaptadores) tem com essência a separação d
 1) Maior verbosidade;
 2) Menor reaproveitamento de código (boilerplate);
 
-- Portas: interfaces (Java, Kotlin etc) --> Services, persistencia etc.
+- Portas: interfaces (Java, Kotlin etc).
   
 - Adaptadores: classes --> Configurações diversas, persistência de dados etc.
 
