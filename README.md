@@ -1,4 +1,4 @@
-# arquiteturaHexagonal
+# Arquitetura Hexagonal
 Conceitos, vantagens e desvantagens
 
 A arquitetura hexagonal (portas e adaptadores) tem com essência a separação das regras de negócio via "core", camadas de "portas" (normalmente interfaces) e "adaptadores" (normalmente classes). Permitindo invocações partindo do CORE (conhecidas como internas - inbunds) ou externas/outbounds (originando de browsers, APIs etc).
